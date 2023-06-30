@@ -1,17 +1,17 @@
 # containers
 
-**Реализация некоторых стандартных контейнеров библиотеки STL языка C++. Проект, выполненный в Школе 21.**
+**Implementation of some standard containers from the C++ STL library. A project completed at Ecole42.**
 
-## Основные особенности
+## Key Features
 
-- Реализованы контейнеры:
-  - list (двусвязный список)
-  - vector (автоматически реалоцирующийся массив)
-  - map (хранилище пар ключ-значение, построенное на красно-черном дереве)
-  - set (множество)
-  - stack (стек)
-- Для контейнеров list, vector и map реализованы итераторы
+- Implemented containers:
+  - list (doubly-linked list)
+  - vector (dynamically resizing array)
+  - map (key-value pair storage built on a red-black tree)
+  - set (set)
+  - stack (stack)
+- Iterators are implemented for the list, vector, and map containers.
 
-## Сборка и запуск тестов
+## Build and Run Tests
 
 make && ./containers_ft
